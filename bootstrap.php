@@ -33,7 +33,7 @@ require_once "{$_tests_dir}/includes/functions.php";
 if (!function_exists("_manually_load_plugins")) {
 	function _manually_load_plugins() {
 		require dirname( __FILE__ ) . '/wp-content/plugins/mz-mindbody-api/mz-mindbody.php';
-		require dirname( __FILE__ ) . '/wp-content/plugins/mindbody-access-management/mz-mbo-access.php';
+		//require dirname( __FILE__ ) . '/wp-content/plugins/mindbody-access-management/mz-mbo-access.php';
 	}
 }
 
