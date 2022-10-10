@@ -1,0 +1,13 @@
+{
+  "core": null,
+  "config": {
+    "WP_ENVIRONMENT_TYPE": "development"
+  },
+  "mappings": {
+    "wp-content/plugins/mz-mindbody-api": "./mz-mindbody-api",
+    "wp-content/plugins/mindbody-access-management": "./mindbody-access-management",
+    "/bin": "./bin",
+    "/bootstrap.php": "./bootstrap.php",
+    "/phpunit.xml.dist": "./phpunit.xml.dist"
+  }
+}
