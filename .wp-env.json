@@ -1,13 +1,19 @@
 {
   "core": null,
   "config": {
-    "WP_ENVIRONMENT_TYPE": "development"
+    "WP_ENVIRONMENT_TYPE": "development",
+    "DOCKER_REQUEST_URL": "http://mzmbo.test",
+    "WP_SITEURL": "http://mzmbo.test",
+    "WP_HOME": "http://mzmbo.test"
   },
   "mappings": {
     "wp-content/plugins/mz-mindbody-api": "./mz-mindbody-api",
     "wp-content/plugins/mindbody-access-management": "./mindbody-access-management",
     "/bin": "./bin",
-    "/bootstrap.php": "./bootstrap.php",
-    "/phpunit.xml.dist": "./phpunit.xml.dist"
+    "bootstrap.php": "./bootstrap.php",
+    "phpunit.xml.dist": "./phpunit.xml.dist",
+    "ssl": "./ssl",
+    "/etc/apache2/sites-available/000-default.conf": "./ssl/000-default.conf",
+    "/etc/apache2/mods-available/ssl.load": "./ssl/ssl.load"
   }
 }
